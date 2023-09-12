@@ -20,9 +20,9 @@ export const OverviewTable = () => {
   }
 
   return (
-    <div className="bg-slate-800 rounded w-full border border-slate-700">
+    <div className="solapebox rounded w-full border border-slate-700">
       <div className="w-full p-4 md:px-8 border-b-2 border-b-slate-700">
-        <h3 className="font-medium text-lg text-slate-200">Overview</h3>
+        <h3 className="font-medium text-lg text-orange-500">Overview</h3>
       </div>
       <DataTable>
         <DataTableRow

@@ -34,7 +34,7 @@ export const EventQueueCard = () => {
           <button
             type="button"
             className={classNames(
-              "rounded-full flex items-center justify-center py-3 px-4 flex-1 focus:outline-none border-slate-600 border-2 text-slate-200 focus-style",
+              "rounded-full flex items-center justify-center py-3 px-4 flex-1 focus:outline-none border-slate-600 border-2 text-neutral-400 focus-style",
               selected ? "bg-slate-700 font-medium" : "bg-transparent"
             )}
           >
@@ -46,7 +46,7 @@ export const EventQueueCard = () => {
   };
 
   return (
-    <div className="bg-slate-800 flex flex-col space-y-4 rounded border border-slate-700">
+    <div className="solapebox flex flex-col space-y-4 rounded border border-slate-700">
       <Tab.Group>
         {({ selectedIndex: tabIndex }) => (
           <>

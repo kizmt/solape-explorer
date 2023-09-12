@@ -75,12 +75,12 @@ export const Cranker = () => {
   };
 
   return (
-    <div className="px-4 pb-4 flex justify-between items-center w-full ">
+    <div className="px-4 pb-4 flex solapebox justify-between items-center w-full ">
       {!wallet.connected ? (
         <div className="w-full flex justify-center">
           <button
             onClick={() => setVisible(true)}
-            className="w-full p-2 bg-cyan-600 hover:bg-cyan-700 transition-all rounded-md"
+            className="w-full p-2 bg-orange-500 hover:bg-orange-600 transition-all rounded-md"
           >
             Connect Wallet
           </button>
