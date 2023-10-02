@@ -49,19 +49,6 @@ const Header: FC = () => {
             </p>
           </button>
           <div className="space-x-4 hidden md:flex items-center">
-            <Link
-              passHref
-              href={{
-                pathname: `/market/create`,
-                query: router.query,
-              }}
-            >
-              <a className="focus-style px-1 rounded">
-                <p className="text-sm text-gray-200 hover:underline focus-visible:outline-none rounded-sm focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:border-none">
-                  Create Market
-                </p>
-              </a>
-            </Link>
           </div>
         </div>
         <div className="md:hidden">
