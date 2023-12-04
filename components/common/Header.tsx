@@ -8,7 +8,6 @@ import SettingsPanel from "./SettingsPanel";
 import { useSerum } from "../../context";
 import { DEX_PROGRAMS } from "../../utils/constants";
 import { prettifyPubkey } from "../../utils/pubkey";
-import Link from "next/link";
 import Image from "next/image";
 
 const Header: FC = () => {
