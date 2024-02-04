@@ -53,7 +53,7 @@ export const CLUSTERS: SolanaCluster[] = [
     label: "Mainnet Beta",
     network: "mainnet-beta",
     endpoint:
-      process.env.NEXT_PUBLIC_MAINNET_URL || "https://rpc.helius.xyz/?api-key=31cd644b-5af6-4794-8868-fd205d9016cf",
+      process.env.NEXT_PUBLIC_MAINNET_URL || "https://mainnet.helius-rpc.com/?api-key=f6004a2b-12fd-4ec3-bcd1-60aa542a12a2",
   },
   // {
   //   label: "Mainnet (Serum)",
